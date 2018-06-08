@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class GitHubClient {
 
-    private var githubService: GitHubService
+    var githubService: GitHubService
     private var BASE_URL = "https://api.github.com"
 
     init {
