@@ -36,4 +36,6 @@ dependencies {
     //retrofit
     implementation "com.squareup.retrofit2:retrofit:${retrofitVersion}"
     implementation "com.squareup.retrofit2:converter-gson:${retrofitVersion}"
+    // Paging
+    implementation 'android.arch.paging:runtime:1.0.0-alpha4-1'
 }
