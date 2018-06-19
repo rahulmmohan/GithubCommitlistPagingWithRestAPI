@@ -1,11 +1,11 @@
-package com.example.rahul.githubcommitlist_pagingwithrestapi.ui
+package com.example.rahul.paging.ui
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.rahul.githubcommitlist_pagingwithrestapi.R
-import com.example.rahul.githubcommitlist_pagingwithrestapi.model.Response
+import com.example.rahul.paging.R
+import com.example.rahul.paging.model.Response
 import kotlinx.android.synthetic.main.item_commit_list.view.*
 
 

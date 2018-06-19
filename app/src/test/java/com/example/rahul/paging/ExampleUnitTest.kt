@@ -1,4 +1,4 @@
-package com.example.rahul.githubcommitlist_pagingwithrestapi
+package com.example.rahul.paging
 
 import org.junit.Test
 

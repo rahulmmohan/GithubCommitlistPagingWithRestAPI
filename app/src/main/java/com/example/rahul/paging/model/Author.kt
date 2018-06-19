@@ -1,12 +1,11 @@
-package com.example.rahul.githubcommitlist_pagingwithrestapi.model
+package com.example.rahul.paging.model
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
 
 
-class Committer {
-
+class Author {
     @SerializedName("name")
     @Expose
     var name: String? = null

@@ -1,6 +1,6 @@
-package com.example.rahul.githubcommitlist_pagingwithrestapi.api
+package com.example.rahul.paging.api
 
-import com.example.rahul.githubcommitlist_pagingwithrestapi.model.Response
+import com.example.rahul.paging.model.Response
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query

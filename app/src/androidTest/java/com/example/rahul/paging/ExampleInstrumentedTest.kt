@@ -1,4 +1,4 @@
-package com.example.rahul.githubcommitlist_pagingwithrestapi
+package com.example.rahul.paging
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

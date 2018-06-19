@@ -1,12 +1,12 @@
-package com.example.rahul.githubcommitlist_pagingwithrestapi
+package com.example.rahul.paging
 
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
-import com.example.rahul.githubcommitlist_pagingwithrestapi.ui.CommitViewModel
-import com.example.rahul.githubcommitlist_pagingwithrestapi.ui.CommitsAdapter
+import com.example.rahul.paging.ui.CommitViewModel
+import com.example.rahul.paging.ui.CommitsAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -20,6 +20,11 @@ class MainActivity : AppCompatActivity() {
         viewModel = ViewModelProviders.of(this).get(CommitViewModel::class.java)
         viewModel.commitList.observe(this, Observer {
             commitsAdapter.submitList(it)
+        })
+        viewModel.networkState.observe(this, Observer {
+            if (it != null) {
+                commitsAdapter.setNetworkState(it)
+            }
         })
     }
 

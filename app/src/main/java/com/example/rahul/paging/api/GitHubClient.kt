@@ -1,4 +1,4 @@
-package com.example.rahul.githubcommitlist_pagingwithrestapi.api
+package com.example.rahul.paging.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
